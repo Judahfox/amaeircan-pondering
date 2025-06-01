@@ -30,18 +30,29 @@ h1 {
     height: 80vh;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     border-radius: 15px;
     border: 5px solid rgb(20, 17, 53);
 }
 
-.ap-description {
+.ap-description p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     width: 65vw;
     max-width: 600px;
     font-size: 1.56rem;
+    color: hsl(41, 55%, 30%);
+}
+.ap-description h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 65vw;
+    max-width: 600px;
+    font-size: 2rem;
     color: hsl(41, 55%, 36%);
 }
 
@@ -82,6 +93,7 @@ a {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
     background-color: hsl(237, 45%, 9%);
     border-radius: 20px;
     padding: 20px;
@@ -135,17 +147,6 @@ input {
     height: 26px;
 }
 
-.important-updates-label {
-    width: 120px;
-    margin-top: 10px;
-    font-size: 1.0625rem;
-}
-
-input[type="checkbox"] {
-    width: 30px;
-    height: 30px;
-}
-
 .submit-button {
     display: block;
     margin: auto;
@@ -159,6 +160,29 @@ input[type="checkbox"] {
 }
 .submit-button:hover {
     background-color: hsl(237, 45%, 30%);
+}
+
+.info-divider-hr {
+    margin-top: 30px;
+}
+
+.info-h2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 65vw;
+    max-width: 600px;
+    font-size: 2rem;
+    color: hsl(41, 55%, 36%);
+}
+.info-p {
+margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 600px;
+    font-size: 1.25rem;
+    color: hsl(41, 55%, 36%);
 }
 
 /* about the author style \/ */
@@ -188,16 +212,62 @@ input[type="checkbox"] {
     font-size: 2rem; 
 }
 
-.about-paragraph-div {
-    display: inline-block;
-}
-
 .about-div img {
     width: 45%;
 }
 
-video {
-    display: block;
+/* teaser style \/ */
+
+.teaser-div {
+    width: 70vw;
+    border-radius: 10px;
+    background-color: hsl(237, 45%, 9%);
+    color: hsl(41, 55%, 48%);
+    font-size: 1.5rem;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 0px;
+    padding: 0.5em;
+}
+
+.teaser-div p {
+    display: inline-block;
+    margin: 0px;
+    margin-bottom: 15px;
+    color: hsl(41, 55%, 36%);
+}
+
+.teaser-h2 {
+    color: hsl(41, 55%, 48%);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 2rem; 
+}
+
+/* anniversary connection style \/ */
+
+.anniversary-connection-div {
+    width: 70vw;
+    border-radius: 10px;
+    background-color: hsl(237, 45%, 9%);
+    color: hsl(41, 55%, 48%);
+    font-size: 1.5rem;
+    margin: auto;
+    margin-top: 0px;
+    padding: 0.5em;
+}
+
+.anniversary-connection-div p {
+    display: inline-block;
+    margin: 0px;
+    margin-bottom: 15px;
+    color: hsl(41, 55%, 36%);
+}
+
+.anniversary-connection-h2 {
+    color: hsl(41, 55%, 48%);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 2rem; 
 }
